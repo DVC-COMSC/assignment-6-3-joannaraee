@@ -1,12 +1,9 @@
-#include "A63.hpp"
+#include "main.hpp"
 
 int main()
 {
-        int N;
-        int sum;
+        int num1, num2;
 
-        cout << "Enter your input ( N )\n";
-        cin >> N;
-        sum = getsum(N);
-        cout << "The sum is " << sum << endl;
+        getTwoValues(num1, num2);
+        cout << "User input values are " << num1 << "\t" << num2 << endl;
 }
